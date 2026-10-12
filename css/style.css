@@ -32,3 +32,11 @@ footer{text-align:center;color:var(--m);padding:60px 5vw 30px;font-size:.9rem}
 a:focus-visible,button:focus-visible{outline:2px solid var(--c);outline-offset:3px}
 @media(max-width:700px){#burger{display:block}nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg);padding:10px 5vw;border-bottom:1px solid var(--line)}nav.open{display:block}nav a{display:block;margin:0;padding:10px 0}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+
+button.card{width:100%;text-align:left;font:inherit;cursor:pointer}.card.wip{border-style:dashed}.card small{display:block;margin-bottom:6px}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+.chip{padding:7px 16px;border-radius:99px;border:1px solid var(--line);background:none;color:var(--m);font:inherit;cursor:pointer;transition:.2s}.chip:hover,.chip.on{border-color:var(--c);color:var(--c)}
+dialog{max-width:640px;width:92vw;max-height:88vh;margin:auto;padding:28px;border:1px solid var(--c);border-radius:14px;background:var(--card);color:var(--t);box-shadow:0 0 40px #38bdf844}
+dialog::backdrop{background:#000a;backdrop-filter:blur(3px)}dialog h2{margin:6px 0 10px}dialog h3{font-size:1rem;color:var(--c);margin:18px 0 6px}
+dialog ul{padding-left:20px;color:#cbd5e1}dialog li{margin-bottom:4px}dialog .tags{margin-top:18px}
+.close{position:absolute;right:14px;top:10px;background:none;border:0;color:var(--m);font-size:1.2rem;cursor:pointer}
