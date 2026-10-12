@@ -77,6 +77,25 @@ nav a{
     margin-top:20px;
 }
 
+.card,
+.project-card,
+.page h1,
+.page p {
+
+    opacity: 0;
+    transform: translateY(50px);
+
+}
+
+.show {
+
+    opacity: 1;
+    transform: translateY(0);
+
+    transition: all 0.8s ease;
+
+}
+
 .card:hover,
 .project-card:hover{
     transform:translateY(-10px);
