@@ -40,3 +40,5 @@ dialog{max-width:640px;width:92vw;max-height:88vh;margin:auto;padding:28px;borde
 dialog::backdrop{background:#000a;backdrop-filter:blur(3px)}dialog h2{margin:6px 0 10px}dialog h3{font-size:1rem;color:var(--c);margin:18px 0 6px}
 dialog ul{padding-left:20px;color:#cbd5e1}dialog li{margin-bottom:4px}dialog .tags{margin-top:18px}
 .close{position:absolute;right:14px;top:10px;background:none;border:0;color:var(--m);font-size:1.2rem;cursor:pointer}
+
+.tags.big span{font-size:.95rem;padding:7px 16px}.hero .tags{margin-bottom:6px}
